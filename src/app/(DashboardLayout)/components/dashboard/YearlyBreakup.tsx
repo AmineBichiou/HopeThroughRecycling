@@ -61,7 +61,7 @@ const YearlyBreakup = () => {
   };
 
   // Estimated values for funds collected and impact achieved
-  const estimatedFunds = "$18,500"; // Example estimation
+  const estimatedFunds = "18,500 TND"; // Example estimation
   const growthPercentage = "+15%"; // Growth over last year
   const series = [45, 35, 20]; // Example values for 2022, 2023, and projected impact
   

@@ -39,7 +39,7 @@ const RecentTransactions = () => {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>
-            Payment received from local recycling initiative, $385.90 for plastic bottles collected
+            Payment received from local recycling initiative, 385.90 TND for plastic bottles collected
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
@@ -61,7 +61,7 @@ const RecentTransactions = () => {
             <TimelineDot color="success" variant="outlined" />
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent>Payment of $64.95 received for the sale of collected plastic bags</TimelineContent>
+          <TimelineContent>Payment of 64.95 TND received for the sale of collected plastic bags</TimelineContent>
         </TimelineItem>
         <TimelineItem>
           <TimelineOppositeContent>09:30 am (Australia)</TimelineOppositeContent>

@@ -18,7 +18,7 @@ const Dashboard = () => {
           variant="h1"
           sx={{ fontSize: 50, lineHeight: '60px', fontWeight: 500, color: 'rgb(187, 160, 91)' }}
         >
-          Promote Green Solutions at HopeThroughRecycling
+          HopeThroughRecycling
         </Typography>
         <Typography
           variant="body1"
@@ -40,7 +40,7 @@ const Dashboard = () => {
   </Grid>
   <Grid item xs={12} md={6}>
     <Image
-      src="/images/backgrounds/sad.jpg"  // Replace with actual image URL
+      src="/images/backgrounds/gg.jpg"  // Replace with actual image URL
       alt="Tree Planting"
       width={600}
       height={400}
@@ -53,7 +53,7 @@ const Dashboard = () => {
 <Grid container spacing={3} mt={4}>
   <Grid item xs={12} md={6}>
     <Image
-      src="/images/backgrounds/recy.jpg"  // Replace with actual image URL
+      src="/images/backgrounds/pp.jpg"  // Replace with actual image URL
       alt="Recycling"
       width={600}
       height={400}
@@ -82,7 +82,7 @@ const Dashboard = () => {
   </Grid>
   <Grid item xs={12} md={6}>
     <Image
-      src="/images/backgrounds/aw.jpg"  // Replace with actual image URL
+      src="/images/backgrounds/recy.jpg"  // Replace with actual image URL
       alt="Recycling Awareness"
       width={600}
       height={400}
