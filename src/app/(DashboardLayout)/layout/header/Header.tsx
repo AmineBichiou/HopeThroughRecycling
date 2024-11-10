@@ -43,19 +43,19 @@ const Header = ({ toggleMobileSidebar }: ItemType) => {
 
         {/* HopeThroughRecycling Text with Clickable Link */}
         <Typography
-          variant="h6"
-          sx={{
-            color: 'green',
-            mx: 2,
-            cursor: 'pointer',
-            fontWeight: 'bold',
-            '&:hover': { textDecoration: 'underline' }
-          }}
-        >
-          <Link href="https://www.instagram.com/helpthroughrecycling/" passHref>
-            HopeThroughRecycling
-          </Link>
-        </Typography>
+  variant="h6"
+  sx={{
+    color: 'green',
+    mx: 2,
+    cursor: 'pointer',
+    fontWeight: 'bold',
+    '&:hover': { textDecoration: 'underline' },
+    display: 'inline' // Prevents the text from being aligned as a block
+  }}
+  onClick={() => window.open('https://www.instagram.com/hopethroughrecycling/', '_blank')}
+>
+  HopeThroughRecycling
+</Typography>
 
         <IconButton
           size="large"
